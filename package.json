@@ -9,15 +9,29 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.33.3",
+    "@heroicons/react": "^2.2.0",
+    "@material-tailwind/react": "^2.1.10",
+    "@react-email/components": "^0.5.7",
+    "@react-email/render": "^1.4.0",
+    "@supabase/supabase-js": "^2.76.1",
+    "axios": "^1.13.1",
+    "firebase": "^12.4.0",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.545.0",
+    "next": "15.5.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.4"
+    "react-icons": "^5.5.0",
+    "resend": "^6.3.0",
+    "tailwind-merge": "^3.3.1",
+    "tus-js-client": "^4.3.1"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4"
   }
 }
